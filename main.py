@@ -3,11 +3,11 @@ from lstm import lstm
 
 
 def inpStr(model): 
-    review = input("enter a review: ") 
     if model == "nbc":
+        review = input("enter a review: ") 
         nbc(review)
     elif model == "lstm":
-        lstm(review)
+        lstm()
 
 def main():
     print("[1] use nbc")
